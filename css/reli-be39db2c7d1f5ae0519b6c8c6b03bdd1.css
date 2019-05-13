@@ -1574,7 +1574,8 @@ li {
     line-height: 50px;
   }
   .paragraph {
-    max-width: 80%;
+    max-width: 90%;
+    font-size: 19.33px;
   }
   .div-block {
     margin-left: 41px;
@@ -1742,13 +1743,13 @@ li {
   }
   .heading {
     padding-top: 12px;
-    font-size: 27px;
-    line-height: 27px;
+    font-size: 25px;
+    line-height: 25px;
   }
   .paragraph {
-    max-width: 80%;
-    font-size: 15.33px;
-    line-height: 21.33px;
+    max-width: 95%;
+    font-size: 14.33px;
+    line-height: 19.33px;
   }
   .div-block {
     margin-left: 0px;
