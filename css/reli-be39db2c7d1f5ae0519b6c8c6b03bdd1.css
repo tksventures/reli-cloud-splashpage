@@ -991,7 +991,7 @@ li {
   font-size: 15.832699999999999px;
   line-height: 15.832699999999999px;
   text-align: left;
-  cursor: pointer;
+  cursor: auto;
 }
 
 .textbox:focus {
