@@ -353,8 +353,18 @@
         <div class="container-3 w-container">
           <h3 id="contact" class="heading-8">Contact Reli</h3>
           <div class="w-form">
-            <form id="email-form" name="email-form" data-name="Email Form" class="form w-clearfix"><input type="email" class="textbox z-index-top hide w-input" maxlength="256" name="email" data-name="Email" placeholder=" Your Email" id="email" required=""><select id="Reason" name="Reason" data-name="Reason" class="textbox select-list z-index-top hide w-select"><option value="none">Select Reason for Contact</option><option value="signup">Sign Up for Reli</option><option value="general">General Inquiry</option><option value="support">Customer Support</option><option value="investor">Investor Inquiry</option></select><textarea id="Message-Body" name="Message-Body" placeholder="Describe your issue." maxlength="5000" data-name="Message Body" class="textbox textarea z-index-top hide w-input"></textarea><input type="submit" value="SUBMIT" data-wait="Please wait..." class="button float-right submit-button z-index-top hide w-button"><img src="images/submit-circle.svg" alt="" class="submit-circle">
-              <div class="z-index-top contact-text"><span class="text-span-8">To inquire about or sign up for any of our services please contact Reli at the email below.<br></span><br><span class="text-span-6">EMAIL<br></span><a href="mailto:contact@reli.cloud?subject=Reli%20Services%20Inquiry"><span class="text-span-7 pop-text white-font">contact@reli.cloud</span></a></div>
+            <form action="https://formspree.io/mwgbnprm" method="POST" id="email-form" name="email-form" data-name="Email Form" class="form w-clearfix">
+              <input type="email" class="textbox z-index-top w-input" maxlength="256" name="_replyto" data-name="Email" placeholder=" Your Email" id="email" required="">
+              <select id="Reason" name="reason" data-name="Reason" class="textbox select-list z-index-top w-select">
+                <option value="none">Select Reason for Contact</option>
+                <option value="signup">Sign Up for Reli</option>
+                <option value="general">General Inquiry</option>
+                <option value="support">Customer Support</option>
+                <option value="investor">Investor Inquiry</option>
+              </select>
+              <textarea id="Message-Body" name="message" placeholder="Describe your issue." maxlength="5000" data-name="Message Body" class="textbox textarea z-index-top w-input"></textarea>
+              <input type="hidden" name="source" value="reli"/>
+              <input type="submit" value="SUBMIT" data-wait="Please wait..." class="button float-right submit-button z-index-top w-button"><img src="images/submit-circle.svg" alt="" class="submit-circle">
             </form>
             <div class="w-form-done">
               <div>Thank you! Your submission has been received!</div>
