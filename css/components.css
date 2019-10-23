@@ -337,6 +337,16 @@ label {
   background-color: #ffffff;
   border: 1px solid #cccccc;
 }
+select::-ms-expand {
+  display: none;
+}
+select
+{
+    -webkit-appearance: none;
+    -moz-appearance: none;      
+    appearance: none;
+    padding: 2px 30px 2px 2px;
+}
 .w-input:-moz-placeholder,
 .w-select:-moz-placeholder {
   color: #999;
