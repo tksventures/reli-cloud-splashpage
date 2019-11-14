@@ -422,6 +422,7 @@ li {
 .z-index-top.contact-text {
   color: #fff;
   font-size: 15.832699999999999px;
+  text-align: left;
 }
 
 .div-block-8 {
@@ -1122,8 +1123,6 @@ li {
   font-size: 35.8327px;
   font-weight: 900;
   text-decoration: underline;
-  padding-top: 35px;
-  position: absolute;
 }
 
 .text-span-7:hover {
@@ -1132,7 +1131,6 @@ li {
 
 .text-span-8 {
   opacity: 0.6;
-  position: absolute;
 }
 
 .div-block-26 {
